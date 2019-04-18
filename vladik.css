@@ -1,0 +1,23 @@
+body {
+	background-image: url('stranka2_clean_zakazkyFULLHD.png');
+	background-color: black;
+	margin: 0px;
+	padding: 0px;
+	height: 200vh;
+  position: relative;
+ 
+  scroll-behavior: smooth;
+}
+
+#scrollDownButton {
+  position: absolute;
+  background:transparent;
+  border:none;
+  outline:none;
+  height:10vh;
+  width:10vw;
+  cursor:pointer;
+  z-index:46;
+  top: 90vh;
+  left: 45vw;
+}
