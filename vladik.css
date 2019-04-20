@@ -1,26 +1,20 @@
 html {
-		
-        background-color: black;
-		margin: 0px;
+		background-color: green;
+		margin-bottom: 500px;
 		padding: 0px;
 		height: 200vh;
 		width: 100%;
     	scroll-behavior: smooth;
-}
-
-body {
-	background: url('imgs/stranka2_clean_zakazkyFULLHD.png'); 
-        -webkit-background-size: cover;
+    	background: url('imgs/stranka2_clean_zakazkyFULLHD.png');
+    	-webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 100%;
-        width: 100%;
-}
+	}
 
 #scrollDownButton {
   position: absolute;
-  background:transparent;
+  background-color: green;
   border:none;
   outline:none;
   height:10vh;
