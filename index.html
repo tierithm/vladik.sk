@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vladik</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="js/app.js"
+      type="text/javascript"
+      charset="utf-8"
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <section id="backgroundTop">
+      <div id="logoSlot">
+        <img id="logo" class="animate" src="img/logo600x600.png" alt="" />
+      </div>
+      <nav>
+        <a href="http://www.google.com"
+          ><h2
+            onmouseover="glowUpTapety()"
+            onmouseout="stopGlowingTapety()"
+            id="tapetyText"
+          >
+            Tapety
+          </h2></a
+        >
+        <h1 id="sanMarcoText">San Marco</h1>
+        <a href="http://www.youtube.com"
+          ><h2
+            onmouseover="glowUpObrazy()"
+            onmouseout="stopGlowingObrazy()"
+            id="obrazyText"
+          >
+            Obrazy
+          </h2></a
+        >
+      </nav>
+
+      <div id="scrollButtonSlot1">
+        <button onclick="scrollToBottom()" id="scrollDownButton"></button>
+      </div>
+    </section>
+
+    <section id="backgroundBottom">
+      <nav>
+        <h2
+          id="cennikText"
+          onmouseover="glowUpCennik()"
+          onmouseout="stopGlowingCennik()"
+        >
+          Cenník
+        </h2>
+        <h2
+          id="objednatText"
+          onmouseover="glowUpObjednat()"
+          onmouseout="stopGlowingObjednat()"
+        >
+          Objednať
+        </h2>
+        <h2
+          id="portfolioText"
+          onmouseover="glowUpPortfolio()"
+          onmouseout="stopGlowingPortfolio()"
+        >
+          Portfólio
+        </h2>
+        <h1 id="posledneZakazkyText">Posledné Zákazky</h1>
+      </nav>
+      <div id="imgSlot1"></div>
+      <div id="imgSlot2"></div>
+      <div id="imgSlot3"></div>
+      <div id="scrollButtonSlot2">
+        <button onclick="scrollToTop()" id="scrollTopButton"></button>
+      </div>
+    </section>
+  </body>
+</html>
